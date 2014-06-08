@@ -1065,6 +1065,10 @@
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-auto-import",
+				);
 			};
 			name = Debug;
 		};
@@ -1077,6 +1081,10 @@
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-auto-import",
+				);
 			};
 			name = "Code Coverage";
 		};
@@ -1089,6 +1097,10 @@
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-auto-import",
+				);
 			};
 			name = Release;
 		};
